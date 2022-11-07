@@ -17,8 +17,8 @@ class RemitanoClient {
 
     public function __construct($config)
     {
-        $accessID= $config['apiKey'];
-        $secretKey = $config['apiSecret'];
+        $accessID= $config['5d7198aee8378369a920b703cf09d487c830212463c23c09cd4f3f1d77904e58'];
+        $secretKey = $config['N6pFlbFsquin/EACwzjN9D8Viznh7TQuU7TtAEf+Mg6RU0hBBRXbVNZsQpDmYnt76KwVisHTeZ8t3BBP8HTrFg=='];
         $this->authenticator_secret = $config['authenticatorSecret'];
 
         $apiAuthHandler = new ApiAuthHandler(array(
